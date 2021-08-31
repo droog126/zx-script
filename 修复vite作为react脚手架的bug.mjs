@@ -1,0 +1,1 @@
+await $`node .\\node_modules\\esbuild\\install.js`
