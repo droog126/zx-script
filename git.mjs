@@ -1,5 +1,5 @@
-const stroeName = 'zx-script';
-const storeUrl = 'https://github.com/droog126/zx-script';
+const stroeName ='react'
+const storeUrl ='https://github.com/droog126/react-component'
 await $`git init`
 await $`git add .`
 try {
@@ -13,5 +13,5 @@ try {
 } catch (err) {
     console.log('没有这个远程仓库')
 }
-await $`git remote add ${stroeName} ${storeUrl}`
+await $`git remote add ${stroeName}  ${storeUrl} `
 await $`git push ${stroeName} master`
