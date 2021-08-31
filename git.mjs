@@ -1,5 +1,5 @@
-const stroeName ='react'
-const storeUrl ='https://github.com/droog126/react-component'
+const stroeName ="zx-script"
+const storeUrl ="https://github.com/droog126/zx-script"
 await $`git init`
 await $`git add .`
 try {
