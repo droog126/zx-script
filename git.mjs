@@ -13,5 +13,6 @@ try {
 } catch (err) {
     console.log('没有这个远程仓库')
 }
+
 await $`git remote add ${stroeName}  ${storeUrl} `
 await $`git push ${stroeName} master`
