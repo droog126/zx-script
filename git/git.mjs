@@ -1,5 +1,5 @@
-const name='zx-script'
-const url='https://github.com/droog126/zx-script'
+const stroeName='zx-script'
+const storeUrl='https://github.com/droog126/zx-script'
 await $`git init`
 await $`git add .`
 try {
@@ -9,9 +9,9 @@ try {
 }
 
 try {
-    await $`git remote rm ${name}`
+    await $`git remote rm ${stroeName}`
 } catch (err) {
     console.log('没有这个远程仓库')
 }
-await $`git remote add ${name} ${url}`
-await $`git push ${name} master`
+await $`git remote add ${stroeName} ${storeUrl}`
+await $`git push ${stroeName} master`
