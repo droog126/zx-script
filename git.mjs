@@ -1,8 +1,13 @@
-var name='zx-script'
-var url='https://github.com/droog126/zx-script.git'
+var name='react'
+var url='https://github.com/droog126/react-component'
 await $`git init`
-await $`git add *`
-await $`git commit -m "testgi"`
+await $`git add .`
+try {
+    await $`git commit -m "first commit"`
+} catch (err) {
+    console.log('你没有做出更改')
+}
+
 try {
     await $`git remote rm ${name}`
 } catch (err) {
