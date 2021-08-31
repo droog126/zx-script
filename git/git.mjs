@@ -1,5 +1,5 @@
-var name='zx-script'
-var url='https://github.com/droog126/zx-script'
+const name='zx-script'
+const url='https://github.com/droog126/zx-script'
 await $`git init`
 await $`git add .`
 try {
