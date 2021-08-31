@@ -1,5 +1,5 @@
-var name='tool'
-var url='https://github.com/droog126/code-tool'
+var name='zx-script'
+var url='https://github.com/droog126/zx-script.git'
 await $`git init`
 await $`git add *`
 await $`git commit -m "testgi"`
