@@ -14,4 +14,5 @@ try {
     console.log('没有这个远程仓库')
 }
 await $`git remote add ${stroeName}  ${storeUrl} `
+await $`git config --global http.proxy http://127.0.0.1:443`
 await $`git push ${stroeName} master`
